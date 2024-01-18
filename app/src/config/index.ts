@@ -1,7 +1,7 @@
 const { env } = process;
 
 export const configuration = {
-  PORT: env.HTTP_PORT || 3003,
+  PORT: env.HTTP_PORT || 3004,
   DATABASE: {
     HOST: env.DATABASE_HOST || 'localhost',
     PORT: env.DATABASE_PORT || 27017,
