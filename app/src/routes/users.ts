@@ -7,5 +7,6 @@ const users = Router();
 const users_post = new CreateUserPost()
 
 users.post('/create-users', users_post.handle);
+// Devo definir as rotas aqui
 
 export { users };
